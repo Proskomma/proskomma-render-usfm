@@ -24,7 +24,6 @@ const doRender = async (pk, config) => {
         );
         console.log(`DocSet rendered in  ${(Date.now() - ts) / 1000} sec`);
         console.log(model.logString());
-        console.log(JSON.stringify(config.aghast, null, 2));
     }
     await ScriptureParaModelQuery(pk)
         .then(thenFunction)
