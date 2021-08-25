@@ -5,7 +5,7 @@ const {Proskomma} = require('proskomma');
 const aghastModel = require('./index');
 const {ScriptureParaModelQuery} = require('proskomma-render');
 
-const defaultBook = "MRK";
+const defaultBook = "PSA";
 
 const doRender = async (pk, config) => {
     const thenFunction = result => {
